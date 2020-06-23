@@ -1,0 +1,102 @@
+button#reload-friend {
+    cursor: pointer;
+    position: fixed;
+    right: 27%;
+    top: 96px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: #1fd1ed;
+    font-size: 2rem;
+    box-shadow: 10px 10px 8px 10px rgba(17, 17, 17, .5) ;
+    color: #1fd1ed;
+    background-color: #1A2026;
+    background-image: none;
+    border-color: #1fd1ed;
+}
+
+.flex {
+	display: flex;
+}
+.world-block {
+    border: 1px solid teal;
+    box-shadow: 10px 10px 8px 10px #111;
+    margin: 20px;
+    overflow: hidden;
+}
+.world-type {
+    width: 5%;
+    writing-mode: vertical-lr;
+    padding: 1%;
+    font-weight: bold;
+    transform: rotate(180deg);
+}
+.world-type-Friend {
+    background: #67d781;
+    box-shadow: 4px 0 8px #2c5a36 inset;
+}
+.world-type-Public {
+    background: #fd7e14;
+    box-shadow: 4px 0 8px rgb(138, 70, 14) inset;
+}
+.world-group {
+    width: 55%;
+	margin: 0;
+	padding:1em; 
+	display: block; color: white;
+    border-right: 1px solid teal;;
+}
+.world-info {
+    width: 40%;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.world-info a {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    background: #ccc;
+    font-weight: bold;
+    color: #333;
+}
+.world-info a:hover {
+    background: #999;
+}
+/* JOIN */
+.world-info a:first-of-type {
+    width: 8rem;
+}
+/* WRD NAME */
+.world-info a:last-of-type {
+    border-left: 3px solid #333;
+    width: calc(100% - 8rem);
+}
+
+.user-img {
+    width: 100px;
+    height: 75px;
+    border: 2px solid var(--green);
+    padding: .25rem;
+    background-color: #1a2026;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+.user-name {
+	width: 12em; display: inline-block; word-wrap: break-word;
+}
+.user-status {
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-right: 5px;
+    display: inline-block;
+    opacity: 0.8;
+}
+.user-status-description {
+    color: #aaa; font-size: 0.6em;
+}
