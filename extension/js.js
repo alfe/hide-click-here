@@ -1,7 +1,7 @@
 const init = () => {
     $("iframe").contents()
-	    .find('yt-live-chat-text-message-renderer:contains("CLІСK HЕRЕ")')
-	    .css("display","none");
+        .find('yt-live-chat-text-message-renderer:contains("CLІСK HЕRЕ")')
+        .css("display","none");
     setTimeout(init, 500);
 }
 

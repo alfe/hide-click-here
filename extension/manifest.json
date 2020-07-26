@@ -1,11 +1,11 @@
   {
     "name": "HIDE: CLІСK HЕRЕ",
     "description" : "HIDE: CLІСK HЕRЕ",
-    "version": "0.01",
+    "version": "0.02",
     "manifest_version": 2,
     "icons" : {
-      "24" : "vrcr24.png",
-      "48" : "vrcr24.png"
+      "24" : "icon24.png",
+      "128" : "icon128.png"
     },
     "content_scripts": [
       {
